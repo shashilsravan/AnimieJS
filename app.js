@@ -5,7 +5,7 @@ var animation = anime({
         {value: 200, duration: 800},
         {value: 0, duration: 800}
     ],
-    delay: function(el, i) { return i * 1000; },
+    delay: function(el, i) { return i * 100; },
     // direction: 'alternate',
     loop: true,
     autoplay: true,

@@ -30,9 +30,10 @@
     display: inline-block;
 }
 body{
-    animation-name: sravan;
+/*     animation-name: sravan;
     animation-duration: 6s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
+    background: aliceblue;
     /* transition: all 1s linear; */
 }
 @keyframes sravan{

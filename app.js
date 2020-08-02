@@ -2,10 +2,10 @@
 var animation = anime({
     targets: 'div.box',
     translateY:[
-        {value: 200, duration: 500},
-        {value: 0, duration: 500}
+        {value: 200, duration: 800},
+        {value: 0, duration: 800}
     ],
-    delay: function(el, i) { return i * 2000; },
+    delay: function(el, i) { return i * 1000; },
     // direction: 'alternate',
     loop: true,
     autoplay: true,

@@ -1,0 +1,77 @@
+.container{
+    /* display: block; */
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding-top: 50px;
+    margin: 30% 0;
+    height: 70vh;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.btn:hover{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);;
+}
+@media screen and (min-width:900px){
+    .container{
+        position: relative;
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin: 15% 0;
+        height: 60vh;
+    }
+}
+.box{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    display: inline-block;
+}
+body{
+    animation-name: sravan;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    /* transition: all 1s linear; */
+}
+@keyframes sravan{
+    0%{
+        background: red;
+    }
+    25%{
+        background: blue;
+    }
+    50%{
+        background: green;
+    }
+    75%{
+        background: yellow;
+    }
+    100%{
+        background: yellow;
+    }
+}
+.btn1{
+    background: green;
+}
+.btn{
+    padding: 0.5rem;
+    border-radius: 50%;
+    margin: 1rem 1rem;
+    cursor: pointer;
+    border-color: transparent;
+    background: transparent;
+}
+.red{
+    background: red;
+}
+.green{
+    background: green;
+}
+.blue{
+    background: blue;
+}
+.yellow{
+    background: yellow;
+}
